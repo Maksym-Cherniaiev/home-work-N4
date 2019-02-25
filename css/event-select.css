@@ -1,0 +1,18 @@
+.event-select {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+	margin: 70px auto;
+	width: 940px;
+	border-bottom: 2px solid rgb(127, 137, 149);
+	height: 35px;
+}
+
+.event-element {
+	padding: 0 20px;
+    height: 35px;
+}
+
+.event-element:hover {
+	border-bottom: 2px solid rgb(216, 220, 223);
+}

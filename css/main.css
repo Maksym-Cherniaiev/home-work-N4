@@ -1,0 +1,17 @@
+@import "./nav-panel.css";
+@import "./event-select.css";
+
+.main-wrap {
+	height: 988px;
+	width: 1300px;
+	background: url("../images/climbo-background.jpg");
+	margin: auto;
+}
+
+.search-bar {
+	outline:none;
+}
+
+.btn-outline-success {
+	border: none;
+}

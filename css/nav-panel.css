@@ -1,0 +1,38 @@
+@import "./nav-panel-elements/search-bar.css";
+
+.calendar-wraper {
+	margin-right: 10px;
+}
+
+.nav-wrap {
+	display: flex;
+	justify-content: center;
+}
+
+.bg-light {
+	width: 85%;
+}
+
+.nav-panel {
+	display: flex;
+	justify-content: space-between;
+	width: 940px;
+	margin: auto;
+	padding-top: 85px;
+}
+
+.nav-panel-title {
+	display: flex;
+	color: white;
+	align-items: center;
+}
+
+.fa-calendar-alt {
+	font-size: 25px;
+    margin-right: 20px;
+}
+
+.title-text {
+	margin: 0;
+}
+
