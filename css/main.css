@@ -1,5 +1,6 @@
 @import "./nav-panel.css";
 @import "./event-select.css";
+@import "./event-cards.css";
 
 .main-wrap {
 	height: 988px;
