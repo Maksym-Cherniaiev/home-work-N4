@@ -7,14 +7,13 @@
 body {
 	background-color: rgb(242, 242, 242);
 	max-width: 1300px;
-    margin: auto;
+	margin: auto;
 }
 
 .main-wrap {
-	height: 988px;
-	width: 1300px;
 	background: url("../images/climbo-background.jpg");
 	margin: auto;
+	background-size: cover;
 }
 
 .search-bar {
