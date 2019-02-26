@@ -6,10 +6,10 @@
 
 @media screen and (max-width: 992px) {
 	.main-wrap {
-		max-width: 1140px;
+		width: 1140px;
 	}
 	.event-cards {
-		max-width: 960px;
+		width: 960px;
 	}
 	.card {
 		width: 295px;
@@ -22,10 +22,10 @@
 
 @media screen and (max-width: 768px) {
 	.main-wrap {
-		max-width: 910px;
+		width: 910px;
 	}
 	.event-cards {
-		max-width: 710px;
+		width: 710px;
 	}
 	.card {
 		width: 220px;
@@ -35,13 +35,13 @@
 		margin-left: 112px;
 	}
 	.event-select {
-		max-width: 710px;
+		width: 710px;
 	}
 	.event-element {
 		font-size: 12px;
 	}
 	.nav-panel {
-		max-width: 710px;
+		width: 710px;
 	}
 }
 
@@ -50,11 +50,11 @@
 		display: block; 
 	}
 	.main-wrap {
-		max-height: 288px;
-    	max-width: 560px;
+		height: 288px;
+    	width: 560px;
 	}
 	.event-cards {
-		max-width: 520px;
+		width: 520px;
 	}
 	.card-button {
     	margin-left: 125px;
@@ -65,7 +65,7 @@
     	box-shadow: 2px 2px 1px rgb(180, 180, 180);
 	}
 	.event-select {
-		max-width: 520px;
+		width: 520px;
 	}
 	.fourth-select { display: none; }
 	.fifth-select { display: none; }
