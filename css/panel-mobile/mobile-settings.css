@@ -1,0 +1,20 @@
+.settings {
+	justify-content: flex-end;
+}
+
+.text {
+	margin: 0;
+}
+
+.signal {
+	border: 15px solid transparent;	
+	border-right: 15px solid white; 
+	border-bottom: 15px solid white;
+	margin-left: 0;
+}
+
+.battery {
+	transform: rotate(-90deg);
+	font-size: 24px;
+	margin: 0 4px 0 8px;
+}

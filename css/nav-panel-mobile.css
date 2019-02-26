@@ -1,0 +1,14 @@
+@import "./panel-mobile/mobile-settings.css";
+@import "./panel-mobile/mobile-params.css";
+
+
+
+.panel-mobile {
+	display: flex;
+	font-size: 32px;
+	color: white;
+	align-items: center;
+	max-width: 520px;
+	margin: auto;
+}
+

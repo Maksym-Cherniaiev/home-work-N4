@@ -1,0 +1,83 @@
+@media screen and (min-width: 577px) {
+	.nav-panel-mobile { 
+		display: none; 
+	}
+}
+
+@media screen and (max-width: 990px) {
+	.main-wrap {
+		max-width: 1140px;
+	}
+	.event-cards {
+		max-width: 960px;
+	}
+	.card {
+		width: 295px;
+    	height: 340px;
+	}
+	.card-button {
+		margin-left: 183px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.main-wrap {
+		max-width: 910px;
+	}
+	.event-cards {
+		max-width: 710px;
+	}
+	.card {
+		width: 220px;
+    	height: 285px;
+	}
+	.card-button {
+		margin-left: 112px;
+	}
+	.event-select {
+		max-width: 710px;
+	}
+	.event-element {
+		font-size: 12px;
+	}
+	.nav-panel {
+		max-width: 710px;
+	}
+}
+
+@media screen and (max-width: 576px) {
+	body {
+		background-color: rgb(242, 242, 242);
+	}
+	.nav-panel-mobile { 
+		display: block; 
+	}
+	.main-wrap {
+		max-height: 288px;
+    	max-width: 560px;
+	}
+	.event-cards {
+		max-width: 520px;
+	}
+	.card-button {
+    	margin-left: 125px;
+	}
+	.card {
+    	width: 250px;
+    	height: 320px;
+    	box-shadow: 2px 2px 1px rgb(180, 180, 180);
+	}
+	.event-select {
+		max-width: 520px;
+	}
+	.fourth-select { display: none; }
+	.fifth-select { display: none; }
+	.sixth-select { display: none; }
+	.random-select { display: block; }
+	.event-element {
+		font-size: 20px;
+	}
+	.nav-panel { 
+		display: none; 
+	}
+}

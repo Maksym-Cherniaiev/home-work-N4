@@ -1,0 +1,26 @@
+.pararms {
+	padding-top: 30px;
+}
+
+.mobile-title {
+	font-size: 42px;
+	font-weight: 500;
+}
+
+.menu-bar {
+	font-size: 40px;
+    margin-right: 40px;
+}
+
+.mobile-title {
+	margin-right: 125px;
+}
+
+.mobile-icon-search {
+	font-size: 40px;
+	margin-right: 60px; 
+}
+
+.menu-dot {
+	font-size: 40px;
+}

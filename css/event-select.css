@@ -16,3 +16,7 @@
 .event-element:hover {
 	border-bottom: 2px solid rgb(216, 220, 223);
 }
+
+.random-select {
+	display: none;
+}
