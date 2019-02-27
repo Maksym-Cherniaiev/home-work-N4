@@ -1,4 +1,4 @@
-document.querySelector(".field-active").addEventListener("click", searchActive);
+document.querySelector("#field-active").addEventListener("click", searchActive);
 let counter = 1;
 
 class ShowField {
