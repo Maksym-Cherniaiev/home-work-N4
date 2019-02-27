@@ -9,6 +9,19 @@
     border-radius: 25px;
 }
 
+.button-search {
+	background-color: transparent;
+	outline: none;
+	border: none;
+	color: white;
+	display: flex;
+    align-items: center;
+}
+
+.button-search:focus {
+	outline: none;
+}
+
 .icon-search {
 	font-size: 23px;
 }
