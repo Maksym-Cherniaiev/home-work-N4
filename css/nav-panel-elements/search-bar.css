@@ -1,5 +1,4 @@
 .nav-panel-search {
-	color: white;
     display: flex;
     align-items: center;
     height: 50px;
@@ -13,17 +12,20 @@
 	background-color: transparent;
 	outline: none;
 	border: none;
-	color: white;
+	color: rgb(127, 137, 149);
 	display: flex;
     align-items: center;
+    width: 42px;
+    font-size: 23px;
+    padding: 0 5px 0 9px;
 }
 
 .button-search:focus {
 	outline: none;
 }
 
-.icon-search {
-	font-size: 23px;
+.button-search:hover {
+	color: white;
 }
 
 .input-search {
@@ -51,4 +53,8 @@
 
 .input-search::-webkit-input-placeholder {
 	color: white;
+}
+
+.input-search.text {
+	width: 400px;
 }

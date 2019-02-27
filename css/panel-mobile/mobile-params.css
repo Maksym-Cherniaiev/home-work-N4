@@ -17,10 +17,16 @@
 }
 
 .mobile-icon-search {
+	color: rgb(127, 137, 149);
 	font-size: 40px;
-	margin-right: 60px; 
+	margin-right: 48px;
+}
+
+.mobile-icon-search:hover {
+	color: white;
 }
 
 .menu-dot {
 	font-size: 40px;
+	margin-left: 58px;
 }
