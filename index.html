@@ -3,10 +3,10 @@
 <head>
 	<title>Climbing app</title>
 	<meta charset="utf-8">
-	<meta name="viewport" 
-		  content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" 
 		  content="ie=edge">
+	<meta name="viewport" 
+		  content="width=device-width, maximum-scale=1.0, minimum-scale=1.0">
 	<link rel="stylesheet" 
 		  type="text/css" 
 		  href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
@@ -41,15 +41,19 @@
 				<p class="text">12:30</p>
 			</div>
 			<div class="panel-mobile pararms">
-				<i class="menu-bar fas fa-bars"></i>
-				<p class="text mobile-title">Challenges</p>
-				<button class="button-search" id="field-active">
-					<i class="mobile-icon-search fas fa-search"></i>
-				</button>
-				<i class="menu-dot fas fa-ellipsis-v"></i>
+				<div class="panel-mobile--wrap">
+					<i class="menu-bar fas fa-bars"></i>
+					<p class="text mobile-title">Challenges</p>
+				</div>
+				<div class="panel-mobile--wrap">
+					<button class="button-search" id="field-active">
+						<i class="mobile-icon-search fas fa-search"></i>
+					</button>
+					<i class="menu-dot fas fa-ellipsis-v"></i>
+				</div>
 			</div>
 			<div class="mobile-search-field">
-				<div class="nav-panel-search search-visible">
+				<div class="nav-panel-search search-invisible">
 					<input class="input-search" type="search" name="search" placeholder="FIND EVENT">
 				</div>
 			</div>

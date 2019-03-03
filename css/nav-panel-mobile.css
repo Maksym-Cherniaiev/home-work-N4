@@ -6,7 +6,7 @@
 	font-size: 32px;
 	color: white;
 	align-items: center;
-	max-width: 520px;
+	width: 100%;
 	margin: auto;
 }
 
@@ -17,8 +17,8 @@
     height: 50px;
 }
 
-.search-visible {
-	display: none;
+.search-invisible {
+	visibility: hidden;
 }
 
 .fieldVisible {

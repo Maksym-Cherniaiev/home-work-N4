@@ -2,18 +2,18 @@
 	padding-top: 30px;
 }
 
+.pararms .panel-mobile--wrap:nth-of-type(2) {
+	justify-content: flex-end;
+}
+
 .mobile-title {
 	font-size: 42px;
 	font-weight: 500;
 }
 
 .menu-bar {
-	font-size: 40px;
-    margin-right: 40px;
-}
-
-.mobile-title {
-	margin-right: 125px;
+    font-size: 40px;
+    margin-right: 3%;
 }
 
 .mobile-icon-search {
@@ -28,5 +28,11 @@
 
 .menu-dot {
 	font-size: 40px;
-	margin-left: 58px;
+	margin-left: 7%;
+}
+
+.panel-mobile--wrap {
+	display: flex;
+    align-items: center;
+    width: 100%;
 }

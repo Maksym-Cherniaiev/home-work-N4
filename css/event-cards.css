@@ -27,6 +27,11 @@
 	margin: 0;
 }
 
+.card-body {
+	display: flex;
+    flex-direction: column;
+}
+
 .card-date {
 	color: rgb(162, 162, 162);
 }
@@ -42,7 +47,7 @@
     font-weight: 500;
     background-color: rgb(48, 93, 122);
     color: white;
-    margin-left: 112px;
+    align-self: flex-end;
     width: 70px;
     height: 30px;
 }

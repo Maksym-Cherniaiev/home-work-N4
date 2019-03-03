@@ -5,12 +5,12 @@
 
 body {
 	background-color: rgb(242, 242, 242);
-	max-width: 1300px;
 	margin: auto;
 }
 
 .main-wrap {
-	height: 988px;
+	width: 1300px;
+	height: 998px;
 	background: url("../images/climbo-background.jpg");
 	margin: auto;
 	background-size: cover;
@@ -24,87 +24,104 @@ body {
 	border: none;
 }
 
-@media screen and (min-width: 577px) {
+@media screen and (min-device-width: 577px) {
 	.nav-panel-mobile { 
 		display: none; 
 	}
 }
 
-@media screen and (max-width: 992px) {
+@media screen and (max-device-width: 1300px) {
 	.main-wrap {
-		width: 1140px;
-	}
-	.event-cards {
-		width: 920px;
-	}
-	.card {
-		width: 295px;
-    	height: 340px;
-	}
-	.card-button {
-		margin-left: 183px;
+		width: 100%;
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-device-width: 992px) {
 	.main-wrap {
-		width: 784px;
-	}
-	.event-cards {
-		width: 710px;
+		width: 100%;
 	}
 	.card {
-		width: 220px;
-    	height: 285px;
-	}
-	.card-button {
-		margin-left: 112px;
-	}
-	.event-select {
-		width: 710px;
-	}
-	.event-element {
-		font-size: 12px;
+		width: 32%;
+		height: 60%;
 	}
 	.nav-panel {
-		width: 710px;
+		width: 92%;
+	}
+	.event-select {
+		width: 92%;
+    	font-size: 85%;
+	}
+	.event-cards {
+    	width: 92%;
 	}
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-device-width: 768px) {
+	.main-wrap {
+		width: 100%;
+	}
+	.event-cards {
+		width: 95%;
+	}
+	.card {
+		width: 32%;
+		height: 60%;
+	}
+	.event-select {
+		width: 95%;
+	}
+	.event-element {
+		font-size: 63%;
+	}
+	.nav-panel {
+		width: 95%;
+	}
+}
+
+@media screen and (max-device-width: 576px) {
+	.panel-mobile {
+		width: 95%;
+	}
 	.nav-panel-mobile { 
-		display: block; 
+		visibility: visible; 
+		width: 95%;
+		margin: auto;
 	}
 	.nav-panel-search {
 		width: 200px;
+		margin-top: 20px;
+	}
+	.mobile-search-field {
+		margin-top: 0;
 	}
 	.main-wrap {
 		height: 288px;
-    	width: 560px;
+    	width: 100%;
 	}
 	.event-cards {
-		width: 520px;
-	}
-	.card-button {
-    	margin-left: 125px;
+		width: 95%;
 	}
 	.card {
-    	width: 250px;
-    	height: 320px;
+    	width: 49%;
+    	height: 60%;
     	box-shadow: 2px 2px 1px rgb(180, 180, 180);
 	}
 	.event-select {
-		width: 520px;
-		margin: 20px auto;
+		width: 95%;
+		margin: 35px auto;
 	}
 	.fourth-select { display: none; }
 	.fifth-select { display: none; }
 	.sixth-select { display: none; }
 	.random-select { display: block; }
 	.event-element {
-		font-size: 18px;
+		font-size: 85%;
 	}
 	.nav-panel { 
 		display: none; 
 	}
+	.params {
+		justify-content: space-between;
+	}
 }
+

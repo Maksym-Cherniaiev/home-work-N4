@@ -14,10 +14,8 @@
 	border: none;
 	color: rgb(127, 137, 149);
 	display: flex;
-    align-items: center;
     width: 42px;
     font-size: 23px;
-    padding: 0 5px 0 9px;
 }
 
 .button-search:focus {
@@ -38,7 +36,7 @@
 }
 
 
-.input-search:-webkit-autofill:focus {
+.input-search:focus {
 	-webkit-text-fill-color: white;
 	-webkit-box-shadow: 0 0 0px 1000px transparent inset;
 	transition: background-color 5000s ease-in-out 0s;

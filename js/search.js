@@ -3,7 +3,7 @@ let counter = 1;
 
 class ShowField {
 	constructor() {
-		this.mobileField = document.querySelector(".search-visible");
+		this.mobileField = document.querySelector(".search-invisible");
 		this.showInput();
 		this.removeOpacity();
 		this.incrementWidth();
@@ -15,7 +15,7 @@ class ShowField {
 	}
 
 	removeOpacity() {
-		this.mobileField.classList.remove("search-visible");
+		this.mobileField.classList.remove("search-invisible");
 	}
 
 	incrementWidth() {
@@ -26,13 +26,13 @@ class ShowField {
 			width = width + counter;
 			counter++;
 			this.mobileField.style.width = `${width}px`;
-		} else {
+		} else if (width === "450px") {
 			clearInterval(this.widthHandler);
 		}
 	}
 
 	repeatIncrement() {
-		this.widthHandler = setInterval(() => this.incrementWidth(), 10);
+		this.widthHandler = setInterval(() => this.incrementWidth(), 35);
 	}
 }
 
